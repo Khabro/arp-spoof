@@ -150,7 +150,7 @@ int main(int argc, char* argv[]) {
             }
         }
 
-        // 주기적 감염 유지 코드 복구 (주석처리)
+        // 주기적 감염 유지 코드 복구 
         
         time_t now = time(nullptr);
         if (now - last >= 10) {
