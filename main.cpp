@@ -151,7 +151,7 @@ int main(int argc, char* argv[]) {
         }
 
         // 주기적 감염 유지 코드 복구 (주석처리)
-        /*
+        
         time_t now = time(nullptr);
         if (now - last >= 10) {
             for (int i = 0; i < flow_count; i++) {
@@ -161,7 +161,7 @@ int main(int argc, char* argv[]) {
             last = now;
             printf("[PERIODIC] Infection sent\n");
         }
-        */
+        
     }
     pcap_close(handle);
     return 0;
